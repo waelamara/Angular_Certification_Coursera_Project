@@ -13,6 +13,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { FormsModule } from '@angular/forms'; 
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
@@ -48,6 +50,8 @@ import { LoginComponent } from './login/login.component';
     MatDialogModule,
     MatInputModule,
     MatFormFieldModule,
+    FormsModule,
+    MatCheckboxModule,
     MatGridListModule,
     MatCardModule,
     MatButtonModule,
