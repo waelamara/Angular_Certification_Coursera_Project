@@ -14,6 +14,9 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms'; 
+import { ReactiveFormsModule } from '@angular/forms'; 
+import { MatSelectModule } from '@angular/material/select';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 
 import 'hammerjs';
@@ -51,6 +54,9 @@ import { LoginComponent } from './login/login.component';
     MatInputModule,
     MatFormFieldModule,
     FormsModule,
+    ReactiveFormsModule,
+    MatSlideToggleModule,
+    MatSelectModule,
     MatCheckboxModule,
     MatGridListModule,
     MatCardModule,
