@@ -27,6 +27,7 @@ import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
 import { DishService} from './services/dish.service';
+import{ProcessHTTPMsgService} from './services/process-httpmsg.service';
 import { PromotionService} from './services/promotion.service';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -35,6 +36,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { LeaderService } from './services/leader.service';
 import { LoginComponent } from './login/login.component';
+import { Services } from '@angular/core/src/view';
 
 @NgModule({
   declarations: [
@@ -70,7 +72,7 @@ import { LoginComponent } from './login/login.component';
     MatProgressSpinnerModule,
     HttpClientModule
   ],
-  providers: [DishService,PromotionService,LeaderService,{provide: 'baseURL', useValue: baseURL}],
+  providers: [DishService,PromotionService,LeaderService,ProcessHTTPMsgService,{provide: 'baseURL', useValue: baseURL}],
   entryComponents: [
     LoginComponent
   ],  
