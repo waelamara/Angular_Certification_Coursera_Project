@@ -37,6 +37,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LeaderService } from './services/leader.service';
 import { LoginComponent } from './login/login.component';
 import { Services } from '@angular/core/src/view';
+import { HighlightDirective } from './directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { Services } from '@angular/core/src/view';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
