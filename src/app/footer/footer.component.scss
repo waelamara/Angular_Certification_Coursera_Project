@@ -1,7 +1,7 @@
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
+$background-dark: #3f51b5;
+$background-light: #3f51b5;
+$background-pale: #3f51b5;
 
 @mixin zero-margin($pad-up-down, $pad-left-right) {
     margin: 0px auto;
@@ -9,11 +9,17 @@ $background-pale: #D1C4E9;
 }
 
 .footer{
-    background-color: $background-pale;
+    background: $background-light ;
+    color:floralwhite;
+    min-height: 150px;
     @include zero-margin(20px, 0px);
 }
-
-.btn-facebook {color:#fff!important; background-color:#3b5998!important;}
+.jumbotron {
+    background: $background-light ;
+    color:floralwhite;
+    min-height: 150px;
+}
+.btn-facebook {color:#fff!important; background-color:#0a3696!important;}
 .btn-google-plus{color:#fff!important;background-color:#dd4b39!important;}
 .btn-youtube{color:#fff!important;background-color:#ff4b39!important;}
 .btn-linkedin{color:#fff!important;background-color:#007bb6!important;}

@@ -1,8 +1,8 @@
 $lt-gray: #ddd;
 $background-dark: #512DA8;
-$background-light: #9575CD;
+$background-light: #3f51b5;
 $background-pale: #D1C4E9;
-$background-moredark: #4527A0;
+$background-moredark: #3549a0;
 
 .active {
     background: $background-moredark;
@@ -17,4 +17,8 @@ $background-moredark: #4527A0;
     background: $background-light ;
     color:floralwhite;
     min-height: 150px;
+}
+
+.dark {
+    background-color: #232325;
 }
